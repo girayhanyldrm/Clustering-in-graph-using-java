@@ -31,7 +31,7 @@ class Graph
         
     	control[v] = true;
         visited[v] = true;
-        //System.out.print(Assignment3.graphDic.get(v)+" ");
+        
         writer.print(Main.graphDic.get(v)+" ");
        
         Iterator<Integer> i = adj[v].listIterator();
